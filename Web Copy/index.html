@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Succulent Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container"> <!--container for all-->
+    <div id="navhead">
+      <div id="navbar">
+        <ul class="nav">
+          <li><a href="#"><img class="icon" src="./images/assets/leaf.png" alt="icon"></a></li>
+          <li><a href="#"></a>
+            <h1>EasyBay</h1></a>
+          </li>
+          <li><a href="#"><input class="searchbar" type="search" placeholder="Search for anything"></a></li>
+          <!--  -->
+          <!--Need to find out where to put the search icon-->
+          <li><a class="text" href="#"> Sign In</a></li>
+          <li><a href="#"> <img class="cart" src="./images/assets/cart-dark.png" alt="checkout"
+                onclick="alert('Your Cart is empty')"></li> <!--need to adjust the size later-->
+        </ul>
+      </div>
+      <div>
+        <ul class="nav">
+          <li> <a class="text" href="#">Aeonium</a></li>
+          <li> <a class="text" href="#">Andormischus</a></li>
+          <li> <a class="text" href="#">Agave</a></li>
+          <li> <a class="text" href="#">Aloe</a></li>
+          <li> <a class="text" href="#">Anacampseros</a></li>
+          <li> <a class="text" href="#">Aristaloe</a></li>
+          <li> <a class="text" href="#">More...</a></li>
+        </ul>
+        <hr>
+      </div>
+      <h2>Your Source for Serious Succulent Specialties</h2>
+    </div><!--end of header-->
+    <!--start of the body-->
+    <div id="body-container">
+      <div class="left-sidebar">
+        <div class="left-content">
+          <strong>Discover succ-</strong>
+          <strong>ulent varieties</strong>
+          <strong>one pot or rack</strong>
+          <strong>at a time!</strong>
+          <div class="info-left">
+            <div class="left-text"><strong>Discover</strong></div>
+            <a href="#"><img class="l-direction" src="./images/assets/arrow-light.png" alt="next"></a>
+          </div>
+        </div>
+        <div class="left-content">
+            <img onmouseover="firstImg(this)" onmouseout="secImg(this)" src="./images/assets/succulents-1.jpg" alt="succ1">
+        </div>
+      </div>
+      <div class="right-sidebar">
+        <div><img class="right-pic" src="./images/assets/aloe-m.jpg" alt="aloe"></div>
+        <div class="info-right">Soothing aloe <a href="#"><img class="r-direction" src="./images/assets/arrow-light.png"
+              alt="next"></a></div>
+      </div>
+    </div>
+    <!--end of body-container-->
+    <div id="footer-container">
+      <div class="plants">
+        <a class="text" href="#"> <img class="plant-pic" src="./images/assets/aeonium-s.jpg" alt="aeonium">Aeonium</a>
+        <a class="text" href="#"> <img class="plant-pic" src="./images/assets/aloe-s.jpg" alt="aloe">Aloe</a>
+        <a class="text" href="#"> <img class="plant-pic" src="./images/assets/cactus-s.jpg" alt="cactus">Cactus</a>
+        <a class="text" href="#"> <img class="plant-pic" src="./images/assets/echeveria-s.jpg" alt="echeveria">Echeveria</a>
+        <a class="text" href="#"> <img class="plant-pic" src="./images/assets/sedum-s.jpg" alt="sedium">Sedium</a>
+        <a class="text" href="#"> <img class="plant-pic" src="./images/assets/sempervivum-s.jpg" alt="sempervivum">Sempervivum</a>
+      </div>
+    </div>
+    <div id="message">
+      <div class="alert">
+        <img src="./images/assets/alert-dark.png" alt="warning">
+        <p>This is site that makes us of third-party cookies, by clicking "I accept" <br> you agree to the terms
+          outlined in our <a href="#">cookie policy.</a></p>
+        <button onclick='accept("#message")' class="message-btn">I accept</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
