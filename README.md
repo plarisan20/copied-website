@@ -3,5 +3,6 @@
 
 FIRST COPIED WEBSITE
 
+****************************************************************
 
-HTML - CSS - Javascript only
+HTML - CSS - with a little of Javascript
